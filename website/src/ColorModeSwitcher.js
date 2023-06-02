@@ -15,12 +15,14 @@ import { FaMoon, FaSun } from 'react-icons/fa';
       variant="ghost"
       color="current"
       marginLeft="2"
+      zIndex={'overlay'}
       pos={'fixed'}
       top={'4'}
       right={'4'}
       onClick={toggleColorMode}
       icon={<SwitchIcon />}
       {...props}
+     
     />
   );
 };
