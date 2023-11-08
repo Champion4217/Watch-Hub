@@ -19,7 +19,7 @@ const Footer = () => {
 
         <VStack w={'full'} borderLeft={['none' ,'1px solid white' ]} borderRight={['none' ,'1px solid white' ]}>
            <Heading textTransform={'uppercase'} textAlign={'center'}>
-            Video Hub
+            WATCH HUB
            </Heading>
            <Text>All rights reserved</Text>
         </VStack>

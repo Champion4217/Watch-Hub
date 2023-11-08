@@ -6,7 +6,7 @@ const Signup = () => {
   return <Container maxW={'container.xl'} h={'100vh'} p={'16'}>
     <form>
         <VStack alignItems={'stretch'} spacing={'8'} w={['full', '96']} m={'auto'} my={'16'}>
-           <Heading alignSelf={'center'}> Video Hub</Heading>
+           <Heading alignSelf={'center'}> Watch Hub</Heading>
            <Avatar alignSelf={'center'} boxSize={'32'}/>
            <Input placeholder='Name' type='text' required focusBorderColor='purple.500'></Input>
            <Input placeholder='Email' type='email' required focusBorderColor='purple.500'></Input>
